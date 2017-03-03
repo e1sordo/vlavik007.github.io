@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+    .container {
+        width: none;
+        max-width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 980px;
+        max-width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .slider {
+	display: none!important;
+    }
+}
+@media (min-width: 1200px) {
+    .slider {
+        overflow: hidden;
+    }
+}

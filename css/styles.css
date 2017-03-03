@@ -1,0 +1,180 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+    background-color: white;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+
+/*HEADER*/
+
+.home-header {
+    background-color: #dcdcdc;
+    padding: 65px 0;
+}
+.home-header .container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.brand {
+    width: 100px;
+    height: 100px;
+    background-color: #777;
+    float: left;
+    margin-right: 15px;
+}
+.home-header .title {
+    float: left;
+    padding-top: 10px;
+}
+.home-header .title p {
+    margin-bottom: 0;
+    font-size: 29px;
+    font-weight: 700;
+}
+.title p.description {
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+p.phone {
+    font-family: 'OpenSansRegular';
+    font-size: 26px;
+    line-height: 34px;
+}
+
+
+
+/*NAV*/
+
+nav.navbar {
+    height: 80px;
+    background-color: #777;
+    justify-content: center;
+}
+nav.navbar ul.navbar {
+    margin: 0 auto;
+    padding-left: 0;
+    list-style: none;
+    display: block;
+}
+ul.navbar>li {
+    float: left;
+    display: block;
+}
+li.categories-menu {
+    border-right: 2px solid white;
+}
+li.categories-menu:last-child {
+    border-right: none;
+}
+li.categories-menu a {
+    color: white;
+    font-size: 30px;
+    padding: 0 22px;
+}
+
+
+
+
+/*SLIDER*/
+
+.slider {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/*CONTENT*/
+
+.wrap {
+    margin-top: 30px;
+}
+.sidebar {
+    background-color: #767676;
+    padding: 22px 34px;
+    color: white;
+    margin-right: 28px;
+    padding-bottom: 100px;
+}
+
+.block {
+    margin-right: 16px;
+}
+.block .block-header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news {
+    margin-top: 30px;
+}
+.news .pub-date {
+    font-style: italic;
+}
+
+.archive {
+    margin-top: 40px;
+    width: 100%;
+    text-align: right;
+}
+.archive a{
+    color: white;
+    text-decoration: underline;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 22px;
+}
+
+
+
+/*FOOTER*/
+
+footer.content-info {
+    flex: 0 0 auto;
+    background-color: #777;
+    margin-top: 195px;
+    padding: 50px 0;
+    color: white;
+}
+footer.content-info .navbar {
+    padding-top: 0;
+    padding-left: 26px;
+}
+footer.content-info a, .footer-menu a {
+    color: white;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.design-block {
+    text-align: right;
+}
+.design-block img {
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.design-block .design {
+    display: inline-block;
+    text-align: left;
+}
+.design-block .design p {
+    margin: 0;
+}
